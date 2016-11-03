@@ -426,7 +426,7 @@ wget -O user-login "https://github.com/Boedaxbayah-vpn/debian7/raw/master/user-l
 wget -O user-add "https://github.com/Boedaxbayah-vpn/debian7/raw/master/user-add"
 wget -O user-expire "https://github.com/Boedaxbayah-vpn/debian7/raw/master/user-expire"
 wget -O user-list "https://github.com/Boedaxbayah-vpn/debian7/raw/master/user-list"
-wget -O /etc/issue.net "https://github.com/Boedaxbayah-vpn/debian7/raw/master/banner"
+#wget -O /etc/issue.net "https://github.com/Boedaxbayah-vpn/debian7/raw/master/banner"
 wget -O user-expirelock "https://github.com/Boedaxbayah-vpn/debian7/raw/master/user-expirelock"
 echo "0 0 * * * root /usr/bin/user-expired" > /etc/cron.d/user-expired
 echo "0 */12 * * * root /sbin/reboot" > /etc/cron.d/reboot
